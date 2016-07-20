@@ -41,10 +41,15 @@ TO LEARN MODEL BY YOUR OWN DATA:
 Reference:
 
 @InProceedings{vo-zhang:2016:acl,
+
 author    = {Vo, Duy Tin and Zhang, Yue},
+
 title     = {Don't Count, Predict! An Automatic Approach to Learning Sentiment Lexicons for Short Text},
+
 booktitle = {Proceedings of ACL},
+
 month     = {August},
+
 year      = {2016},
-address   = {Berlin, Germany}
-}
+
+address   = {Berlin, Germany}}
