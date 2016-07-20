@@ -35,3 +35,16 @@ TO LEARN MODEL BY YOUR OWN DATA:
     + Raw data format: labels (1 or 0) + ' ' + tweet +'\n'
   - Modify the script by changing the inputs to ../data/alexgo/processed/info.tw and  ../data/alexgo/processed/process.tw
   - Run model
+  
+
+
+Reference:
+
+@InProceedings{vo-zhang:2016:acl,
+  author    = {Vo, Duy Tin and Zhang, Yue},
+  title     = {Don't Count, Predict! An Automatic Approach to Learning Sentiment Lexicons for Short Text},
+  booktitle = {Proceedings of ACL},
+  month     = {August},
+  year      = {2016},
+  address   = {Berlin, Germany}
+}
