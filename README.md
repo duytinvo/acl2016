@@ -5,9 +5,11 @@ This repository consists of three folders:
   - learn_lexicon: scripts to learn lexicons
   - test_lexicon: scripts to test ours learned lexicons
   - lexicons: sentiment lexicons in English and Arabic, which are learned by our models.
+  
 To use our lexicons:
   - English and Arabic lexicons in "lexicons" folder.
   - Data format: word + '\t' + sentiment score + '\n'
+  
 To compare our lexicons with available lexicons:
   - Change current directory to folder "acl2016/test_lexicon/scripts"
   - Change all *.sh file to 755 (e.g. chmod 755 *.sh)
@@ -18,6 +20,7 @@ To compare our lexicons with available lexicons:
   - For testing Arabic lexicons:
       + Extract features: ./run_features_ar.sh
       + Classification: ./run_liblinear_ar.sh
+      
 To run the our models to learn lexicons from scratchs:
   - Download the data from "https://drive.google.com/folderview?id=0Bys5jWIGhUopakxaNjlPWG10RDA&usp=sharing" 
   - Replace to data folder
