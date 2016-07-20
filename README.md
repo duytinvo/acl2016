@@ -1,5 +1,5 @@
 # acl2016
-This code is used for the paper "Don't Count, Predict! An Automatic Approach to Learning Sentiment Lexicons for Short Text" (ACL2016)
+This code is used for the paper "Don't Count, Predict! An Automatic Approach to Learning Sentiment Lexicons for Short Text" (ACL2016-short paper)
 
 This repository consists of three folders:
   - learn_lexicon: scripts to learn lexicons
