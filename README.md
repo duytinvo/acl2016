@@ -26,11 +26,12 @@ To run the our models to learn lexicons:
   - Replace to data folder
   - Change current directory to folder "acl2016/learn_lexicon/script"
   - Run:
-    + English model: python lexicon-english.py
-	  + Arabic model: python lexicon-arabic.py
+      + English model: python lexicon-english.py
+      + Arabic model: python lexicon-arabic.py
 	  
 TO LEARN MODEL BY YOUR OWN DATA:
   - Process your data:
     + Example: python process.py ../data/alexgo/raw/metatweets ../data/alexgo/processed/info.tw ../data/alexgo/processed/process.tw
     + Raw data format: labels (1 or 0) + ' ' + tweet +'\n'
-  - Modify inputs and run model
+  - Modify the script by changing the inputs to ../data/alexgo/processed/info.tw and  ../data/alexgo/processed/process.tw
+  - Run model
